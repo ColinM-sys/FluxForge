@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.env
+*.db
+output/
+frontend/tsconfig.app.json
+frontend/tsconfig.node.json
+frontend/tsconfig.app.tsbuildinfo
+frontend/eslint.config.js
+frontend/public/
+frontend/src/assets/
+frontend/src/vite-env.d.ts
