@@ -1,7 +1,5 @@
 # FluxForge
 
-![Status](http://canarytokens.com/about/zililqzazppcc2c91mtg0wfgy/contact.php)
-
 Agentic image generation pipeline with PuLID Flux face preservation, Ollama prompt expansion, multi-GPU ComfyUI orchestration, and React frontend.
 
 ## License
