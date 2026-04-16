@@ -33,9 +33,9 @@ class Settings(BaseSettings):
     PULID_MODEL: str = "pulid_flux_v0.9.1.safetensors"
 
     # CUDA crash management
-    CUDA_RESTART_THRESHOLD: int = 4
-    COMFY_POLL_INTERVAL: float = 2.0
-    COMFY_TIMEOUT: float = 300.0
+    CUDA_RESTART_THRESHOLD: int = 3
+    COMFY_POLL_INTERVAL: float = 1.5
+    COMFY_TIMEOUT: float = 240.0
 
     # FluxForge output (copies from ComfyUI output)
     OUTPUT_DIR: str = str(Path(__file__).parent.parent / "output")
